@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-main{
+    background-color: #00B207;
+}
+.bg-black-main{
+    background-color: #333;
+    color: #999999;
+}
+.big-bannar{
+    background-image: url(./images/Bannar\ Big.png);
+}
+.small-bannar-1{
+    background-image: url(./images/BG.png);
+}
+.small-bannar-2{
+    background-image: url(./images/BG\ \(1\).png);
+}
+.text-main{
+    color: #00B207;
+}
+.w-15{
+    width: 15%;
+}
+.type-1{
+    background-image: url(./images/Rectangle\ 54.png);
+}
+.type-2{
+    background-image: url(./images/Rectangle\ 54\ \(1\).png);
+}
+.type-3{
+    background-image: url(./images/Rectangle\ 54\ \(2\).png);
+}
+.h-100{
+    height: 450px;
+}
+.text-orange{
+    color: #FF8A00;
+}
+.text-yellow{
+    color: #FCC900;
+}
+.discount-container{
+    background-image: url(./images/discount-bannar.jpeg);
+    height: 300px;
+}
+
+/* contact css */
+
+.contact-main-header{
+    background-image: url(./images/contact-header.png);
+    height: 100px;
+}
+.contact-main-map{
+    background-image: url(./images/Map\ Image.png);
+    height: 300px;
+}
+
+/* blog css */
+.blog-main-header{
+    background-image: url(./images/blog-bg.png);
+    height: 100px;
+}
+
+/* single blog css */
+.single-blog-main-header{
+    background-image: url(./images/Breadcrumbs.png);
+    height: 100px;
+}
+
+/* gallery css */
+.gallery-content{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.blog-we{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* blog-discount */
+.blog-discount-container{
+    background-image: url(./images/sales-1.png);
+    height: 200px;
+}
+
+@media screen and (max-width: 768px){
+    .w-15{
+        width: 30%;
+    }
+
+    .contact-main-header, .blog-main-header, .contact-main-map, .single-blog-main-header{
+        display: none;
+    }
+}
